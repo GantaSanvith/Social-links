@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Social links Links</title>
+    <link rel="stylesheet" href="index.css">
+</head>
+<body>
+    <div class="container">
+        <div class="profile">
+          <img src="pic/pic2.png" alt="Profile Image" class="profile-image">
+            <h3>Sanvith Ganta</h3>
+            <p class="location">Hyderabad, India</p>
+            <p class="description">"Front-end developer and avid reader."</p>
+            <div class="buttons">
+                <button id="git" onclick="redirectToGit()">GitHub</button>
+                <button id="fm" onclick="redirectToFm()">Frontend Mentor</button>
+                <button id="linkedin" onclick="redirectToLinkedIn()">LinkedIn</button>
+                <button id="twitter" onclick="redirectToTwitter()">Twitter</button>
+                <button id="insta" onclick="redirectToInsta()">Instagram</button>
+            </div>
+        </div>
+    </div>
+    <script>
+        function redirectToGit() { window.location.href = "https://github.com/"; }
+        function redirectToFm() { window.location.href = "https://www.frontendmentor.io/"; }
+        function redirectToLinkedIn() { window.location.href = "https://www.linkedin.com/"; }
+        function redirectToTwitter() { window.location.href = "https://twitter.com/"; }
+        function redirectToInsta() { window.location.href = "https://www.instagram.com/"; }
+    </script>
+</body>
+</html>
